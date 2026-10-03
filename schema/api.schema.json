@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "STM32 Validation API IR",
+  "type": "object",
+  "required": ["schema_version", "library", "functions", "enums", "structs", "typedefs", "constants"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "library": {"type": "string"},
+    "functions": {"type": "array"},
+    "enums": {"type": "array"},
+    "structs": {"type": "array"},
+    "typedefs": {"type": "object"},
+    "constants": {"type": "object"}
+  }
+}
